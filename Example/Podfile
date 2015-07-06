@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'YapDatabaseObject-CloudKit_Example', :exclusive => true do
+  pod "YapDatabaseObject-CloudKit", :path => "../"
+end
+
+target 'YapDatabaseObject-CloudKit_Tests', :exclusive => true do
+  pod "YapDatabaseObject-CloudKit", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
