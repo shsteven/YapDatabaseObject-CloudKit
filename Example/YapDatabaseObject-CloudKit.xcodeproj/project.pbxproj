@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8EDED8772A794CEBB6EEF77E /* Pods_YapDatabaseObject_CloudKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6382BEB729DEE31687C743 /* Pods_YapDatabaseObject_CloudKit_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AAC9FD891B4A5F1500A8101A /* MyTodo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC9FD881B4A5F1500A8101A /* MyTodo.m */; };
 		AE8EFE33D62B74B3E2316E9C /* Pods_YapDatabaseObject_CloudKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56506D9F20651E1CE36F99B3 /* Pods_YapDatabaseObject_CloudKit_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AAC9FD871B4A5F1500A8101A /* MyTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTodo.h; sourceTree = "<group>"; };
+		AAC9FD881B4A5F1500A8101A /* MyTodo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTodo.m; sourceTree = "<group>"; };
 		B949EFAE5EAA80B8F1E39670 /* Pods-YapDatabaseObject-CloudKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapDatabaseObject-CloudKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YapDatabaseObject-CloudKit_Tests/Pods-YapDatabaseObject-CloudKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C2AB4DE8ED64022EF6E9DDDC /* Pods-YapDatabaseObject-CloudKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapDatabaseObject-CloudKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YapDatabaseObject-CloudKit_Example/Pods-YapDatabaseObject-CloudKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DCB5D402D1265E31EA00C236 /* YapDatabaseObject-CloudKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "YapDatabaseObject-CloudKit.podspec"; path = "../YapDatabaseObject-CloudKit.podspec"; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 		6003F593195388D20070C39A /* Example for YapDatabaseObject-CloudKit */ = {
 			isa = PBXGroup;
 			children = (
+				AAC9FD871B4A5F1500A8101A /* MyTodo.h */,
+				AAC9FD881B4A5F1500A8101A /* MyTodo.m */,
 				6003F59C195388D20070C39A /* MBAppDelegate.h */,
 				6003F59D195388D20070C39A /* MBAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -393,6 +398,7 @@
 				6003F59E195388D20070C39A /* MBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				AAC9FD891B4A5F1500A8101A /* MyTodo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
