@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "YapDatabaseObject-CloudKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of YapDatabaseObject-CloudKit."
+  s.summary          = "A base model class for working with CloudKit an YapDatabase. Extracted from YapDatabase sample code."
   s.description      = <<-DESC
-                       An optional longer description of YapDatabaseObject-CloudKit
+                       A base model class for working with CloudKit an YapDatabase. Extracted from YapDatabase sample code.
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/YapDatabaseObject-CloudKit"
+  s.homepage         = "https://github.com/shsteven/YapDatabaseObject-CloudKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Steven Zhang" => "steven.zhang@tigerspike.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/YapDatabaseObject-CloudKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/shsteven/YapDatabaseObject-CloudKit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -35,4 +35,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'YapDatabase/standard', '~>2.6.0' # core
 end

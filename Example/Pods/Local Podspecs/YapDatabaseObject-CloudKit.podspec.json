@@ -1,0 +1,30 @@
+{
+  "name": "YapDatabaseObject-CloudKit",
+  "version": "0.1.0",
+  "summary": "A base model class for working with CloudKit an YapDatabase. Extracted from YapDatabase sample code.",
+  "description": "                       A base model class for working with CloudKit an YapDatabase. Extracted from YapDatabase sample code.\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/shsteven/YapDatabaseObject-CloudKit",
+  "license": "MIT",
+  "authors": {
+    "Steven Zhang": "steven.zhang@tigerspike.com"
+  },
+  "source": {
+    "git": "https://github.com/shsteven/YapDatabaseObject-CloudKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "YapDatabaseObject-CloudKit": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "YapDatabase/standard": [
+      "~>2.6.0"
+    ]
+  }
+}

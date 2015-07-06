@@ -1,0 +1,6 @@
+framework module Pods_YapDatabaseObject_CloudKit_Example {
+  umbrella header "Pods-YapDatabaseObject-CloudKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
