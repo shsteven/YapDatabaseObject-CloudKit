@@ -64,9 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AAC9FD871B4A5F1500A8101A /* MyTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTodo.h; sourceTree = "<group>"; };
 		AAC9FD881B4A5F1500A8101A /* MyTodo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTodo.m; sourceTree = "<group>"; };
+		AAC9FD8A1B4A754400A8101A /* YapDatabaseObjectCloudKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = YapDatabaseObjectCloudKit.podspec; path = ../YapDatabaseObjectCloudKit.podspec; sourceTree = "<group>"; };
 		B949EFAE5EAA80B8F1E39670 /* Pods-YapDatabaseObject-CloudKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapDatabaseObject-CloudKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YapDatabaseObject-CloudKit_Tests/Pods-YapDatabaseObject-CloudKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C2AB4DE8ED64022EF6E9DDDC /* Pods-YapDatabaseObject-CloudKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapDatabaseObject-CloudKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YapDatabaseObject-CloudKit_Example/Pods-YapDatabaseObject-CloudKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DCB5D402D1265E31EA00C236 /* YapDatabaseObject-CloudKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "YapDatabaseObject-CloudKit.podspec"; path = "../YapDatabaseObject-CloudKit.podspec"; sourceTree = "<group>"; };
 		F5A0EB9A91F6D1850EAEF2F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,7 +180,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				DCB5D402D1265E31EA00C236 /* YapDatabaseObject-CloudKit.podspec */,
+				AAC9FD8A1B4A754400A8101A /* YapDatabaseObjectCloudKit.podspec */,
 				F5A0EB9A91F6D1850EAEF2F3 /* README.md */,
 				5C06F56E153EC94350EC2673 /* LICENSE */,
 			);

@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_YapDatabaseObject_CloudKit_Example_YapDatabaseObject_CloudKit : NSObject
-@end
-@implementation PodsDummy_Pods_YapDatabaseObject_CloudKit_Example_YapDatabaseObject_CloudKit
-@end

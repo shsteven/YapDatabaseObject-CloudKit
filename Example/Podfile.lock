@@ -8,16 +8,16 @@ PODS:
   - Specta (1.0.2)
   - YapDatabase/standard (2.6.5):
     - CocoaLumberjack (~> 1)
-  - YapDatabaseObject-CloudKit (0.1.0):
+  - YapDatabaseObjectCloudKit (0.1.0):
     - YapDatabase/standard (~> 2.6.0)
 
 DEPENDENCIES:
   - Expecta
   - Specta
-  - YapDatabaseObject-CloudKit (from `../`)
+  - YapDatabaseObjectCloudKit (from `../`)
 
 EXTERNAL SOURCES:
-  YapDatabaseObject-CloudKit:
+  YapDatabaseObjectCloudKit:
     :path: "../"
 
 SPEC CHECKSUMS:
@@ -25,6 +25,6 @@ SPEC CHECKSUMS:
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
   Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
   YapDatabase: 814f9ff862a95c1e581d93335a4020482b69155b
-  YapDatabaseObject-CloudKit: f60dc28441d1dc9ca663f7eadd1b21638173f3ab
+  YapDatabaseObjectCloudKit: 1e266b9373fe64c0d3c048ba43d4f14611691e9c
 
 COCOAPODS: 0.37.2

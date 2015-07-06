@@ -42,9 +42,9 @@
 #define COCOAPODS_VERSION_MINOR_YapDatabase_standard 6
 #define COCOAPODS_VERSION_PATCH_YapDatabase_standard 5
 
-// YapDatabaseObject-CloudKit
-#define COCOAPODS_POD_AVAILABLE_YapDatabaseObject_CloudKit
-#define COCOAPODS_VERSION_MAJOR_YapDatabaseObject_CloudKit 0
-#define COCOAPODS_VERSION_MINOR_YapDatabaseObject_CloudKit 1
-#define COCOAPODS_VERSION_PATCH_YapDatabaseObject_CloudKit 0
+// YapDatabaseObjectCloudKit
+#define COCOAPODS_POD_AVAILABLE_YapDatabaseObjectCloudKit
+#define COCOAPODS_VERSION_MAJOR_YapDatabaseObjectCloudKit 0
+#define COCOAPODS_VERSION_MINOR_YapDatabaseObjectCloudKit 1
+#define COCOAPODS_VERSION_PATCH_YapDatabaseObjectCloudKit 0
 

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "YapDatabaseObjectCloudKit"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A base model class for working with CloudKit an YapDatabase. Extracted from YapDatabase sample code."
   s.description      = <<-DESC
                        A base model class for working with CloudKit an YapDatabase. Extracted from YapDatabase sample code.

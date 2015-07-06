@@ -50,10 +50,10 @@ code_sign() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'CocoaLumberjack.framework'
   install_framework 'YapDatabase.framework'
-  install_framework 'YapDatabaseObject_CloudKit.framework'
+  install_framework 'YapDatabaseObjectCloudKit.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'CocoaLumberjack.framework'
   install_framework 'YapDatabase.framework'
-  install_framework 'YapDatabaseObject_CloudKit.framework'
+  install_framework 'YapDatabaseObjectCloudKit.framework'
 fi
