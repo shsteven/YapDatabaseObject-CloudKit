@@ -17,7 +17,7 @@ YapDatabaseObject-CloudKit is available through [CocoaPods](http://cocoapods.org
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "YapDatabaseObject-CloudKit"
+pod "YapDatabaseObjectCloudKit"
 ```
 
 ## Author
